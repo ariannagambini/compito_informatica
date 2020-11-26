@@ -37,16 +37,25 @@ elif voti1==voti2:
 voti.reverse ()
 print(voti)
 
-#esercizio3
+# esercizio 3
 stipendi_totale = 0
 stipendi_numero = 0
 while True:
     stipendio=input("inserire il valore di uno stipendio")
     if stipendio=="-1":
         break
-    elif stipendio=="stop":
+    else:
         stipendio=int(stipendio)
         stipendi_totale+=stipendio
         stipendi_numero+=1
 media=int(stipendi_totale/stipendi_numero)
-print=("la media degli stipendi è", media,)
+print("la media degli stipendi è",media,)
+
+# esercizio 4
+numero_veicoli = 0
+print("digitare 0 per interrompere le domande")
+While True:
+    flusso_veicoli = int(input("quanti veicoli sono passati dal casello oggi?"))
+    if flusso_veicoli == 0
+        break
+print("in totale attraversato il casello " + flusso_veicoli +"veicoli")
